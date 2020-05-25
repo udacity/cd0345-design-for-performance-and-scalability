@@ -1,5 +1,5 @@
 # TODO: Define the variable for aws_region
-variable "region" {
-  type    = list(string)
-  default = ["ap-south-1"]
+variable "aws_region" {
+  description = "The AWS region to create things in."
+  default     = "ap-south-1"
 }
