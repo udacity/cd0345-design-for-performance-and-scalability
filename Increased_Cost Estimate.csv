@@ -1,0 +1,37 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,9948.608,119383.3,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (db.r5.24xlarge)"
+My Estimate,US East (N. Virginia),S3 Standard,0,23.61,283.32,USD,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+"
+My Estimate,US East (N. Virginia),Amazon EC2,0,1049.95,12599.4,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (c6g.medium)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,940.8,11289.6,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (150 GB), Instance type (m5.large)"
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,300,3600,USD,
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (8), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (Ohio),Amazon RDS for MySQL,0,4974.304,59691.65,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (db.r5.24xlarge)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"Summary of changes:
+
+1) Increased the number of ec2 instances to span across another availability zone
+2) RDS instance type changed to be more powerful memory optimized.
+3) RDS read replica in stand-by region for redundancy
+4) Increased metrics on CloudWatch",,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

@@ -1,0 +1,33 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary,
+My Estimate,US East (Ohio),Amazon RDS for MySQL,0,3952.756,47433.07,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (db.m5.12xlarge)",
+My Estimate,US East (N. Virginia),S3 Standard,0,23.61,283.32,USD,S3 Standard storage (1 TB per month),
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+",
+My Estimate,US East (N. Virginia),Amazon EC2,0,262.49,3149.88,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (c6g.medium)",
+My Estimate,US East (N. Virginia),Amazon EC2,0,235.2,2822.4,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (150 GB), Instance type (m5.large)",
+My Estimate,US East (N. Virginia),Amazon CloudWatch,0,7.5,90,USD,,
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (8), Number of EIPs per instance (1)",
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.4,USD,Number of NAT Gateways (2),
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,1976.378,23716.54,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (db.m5.12xlarge)",
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Summary of changes:
+1. Removed support plan
+2. Reduced storage for RDS (both Master & Read-replica)
+3. Reduced number of EC2 instances ",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
