@@ -9,7 +9,7 @@ My Estimate,US East (N. Virginia),Amazon EC2,0,940.8,11289.6,USD,"Operating syst
 My Estimate,US East (N. Virginia),Amazon CloudWatch,0,300,3600,USD,
 My Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (8), Number of EIPs per instance (1)"
 My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.4,USD,Number of NAT Gateways (2)
-My Estimate,US East (Ohio),Amazon RDS for MySQL,0,4974.304,59691.65,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (db.r5.24xlarge)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,"4,974.30",59691.65,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (db.r5.24xlarge)"
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
@@ -22,16 +22,4 @@ My Estimate,US East (Ohio),Amazon RDS for MySQL,0,4974.304,59691.65,USD,"Quantit
 
 1) Increased the number of ec2 instances to span across another availability zone
 2) RDS instance type changed to be more powerful memory optimized.
-3) RDS read replica in stand-by region for redundancy
-4) Increased metrics on CloudWatch",,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
+3) Increased metrics on CloudWatch",,,,,,,

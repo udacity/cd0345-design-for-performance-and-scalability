@@ -18,7 +18,7 @@ resource "aws_instance" "UdacityT2" {
   ami = var.ami
   instance_type = "t2.micro"
   tags = {
-    name = "Udacity Terraform"
+    name = "Udacity T2"
   }
 }
 
@@ -27,6 +27,6 @@ resource "aws_instance" "UdacityM4" {
   ami =  var.ami
   instance_type = "m4.large"
   tags = {
-    name = "Udacity Terraform"
+    name = "Udacity M4"
   }
 }
