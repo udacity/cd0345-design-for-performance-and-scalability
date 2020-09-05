@@ -1,6 +1,6 @@
 # Designate a cloud provider, region, and credentials
 provider "aws" {
-  profile = "default"
+  profile = "sandbox-xander-guzman"
   region = "us-west-2"
 }
 
