@@ -1,6 +1,7 @@
 # Designate a cloud provider, region, and credentials
 provider "aws" {
-  profile = "sandbox-xander-guzman"
+  profile = "default"
+  region = "us-west-2"
 }
 
 # Provision 4 AWS t2.micro EC2 instances named Udacity T2

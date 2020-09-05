@@ -1,6 +1,7 @@
 # Designate a cloud provider, region, and credentials
 provider "aws" {
-  region = var.region
+  profile = "default"
+  region = "us-west-2"
 }
 
 # Convert the src python file to a zip before uploading it as lambda function.
@@ -20,7 +21,6 @@ resource "aws_lambda_function" "lambda" {
   role             = aws_iam_role.lambda_exec.arn
   source_code_hash = data.archive_file.dir_hash_zip.output_base64sha256
 
-  # environment is required by the Python handler to say the greeting.
   environment {
     variables = {
       greeting = "Hello"
