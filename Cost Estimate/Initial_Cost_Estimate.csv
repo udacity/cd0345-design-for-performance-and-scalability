@@ -1,0 +1,10 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),,Amazon EC2,0,315.36,3784.32,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans  ), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3a.xlarge)"
+My Estimate,US East (Ohio),,S3 Standard,0,4.6,55.20,USD,S3 Standard storage (200 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,10.24,122.88,USD,"Data Transfer, Data transfer cost (10.24)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,0,342.63,4111.56,USD,"Quantity (2), Pricing strategy (Standard Reserved Instances  ), Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Instance type (db.m5.xlarge), Additional backup storage (30 GB)"
+My Estimate,US East (Ohio),,Elastic Load Balancing,0,149.65,1795.80,USD,Number of Application Load Balancers (2)
+
+
+
+"This estimate is based on what the project requested."
