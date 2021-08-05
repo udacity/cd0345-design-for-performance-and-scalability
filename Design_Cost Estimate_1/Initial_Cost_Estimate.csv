@@ -1,0 +1,17 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Nat Gateway,Amazon Virtual Private Cloud (VPC),0,83.7,1004.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Internet Gateway,Amazon Virtual Private Cloud (VPC),0,41.85,502.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),AWS Route 53,Amazon Route 53,0,569,6828,USD,"Hosted Zones (4), Basic Checks Within AWS (50), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),Application Load Balancer,Application Load Balancer,0,914.77,10977.24,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Elastic IP Address,Amazon Elastic IP,0,29.2,350.4,USD,"Number of EC2 instances (8), Number of EIPs per instance (2)"
+My Estimate,US East (N. Virginia),CloudFront,AWS Storage Gateway,0,20.48,245.76,USD,"DT Inbound: All other regions (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (0), Data written to AWS file storage by your gateway (2 TB per month)"
+My Estimate,US East (N. Virginia),AWS S3 Buckets,S3 Standard,0,260.52,3126.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),AWS S3 Buckets,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,2208.96,26507.52,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances), Storage amount (500 GB), Instance type (m5a.4xlarge)"
+My Estimate,US East (N. Virginia),Application Server,Amazon EC2,0,1028.48,12341.76,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances), Storage amount (120 GB), Instance type (m5a.4xlarge)"
+My Estimate,US East (N. Virginia),Database Server,Amazon RDS for PostgreSQL,0,4388.08,52656.96,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (500 GB per month), Nodes (2), Instance Type (db.m5.4xlarge), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+,,,,,,,,
+"Total Monthly Estimated Cost = 9,790.68 USD",,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
