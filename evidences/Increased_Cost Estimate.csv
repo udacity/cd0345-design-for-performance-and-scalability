@@ -1,0 +1,25 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+udacity-edeleon,US East (N. Virginia),web-server,Amazon EC2,0,2432.52,29190.24,USD,"Operating system (Linux), Quantity (3), Pricing strategy (Convertible Reserved Instances 1 Year No UpFront), Storage amount (20 GB), Instance type (c5.9xlarge)"
+udacity-edeleon,US East (N. Virginia),application-server,Amazon EC2,0,2432.52,29190.24,USD,"Operating system (Linux), Quantity (3), Pricing strategy (Convertible Reserved Instances 1 Year No UpFront), Storage amount (20 GB), Instance type (c5.9xlarge)"
+udacity-edeleon,US East (N. Virginia),cloudfront-s3,S3 Standard,0,249.61,2995.32,USD,S3 Standard storage (10 TB per month)
+udacity-edeleon,US East (N. Virginia),cloudfront-s3,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+udacity-edeleon,US East (N. Virginia),dns-resolver,Amazon Route 53,0,13,156,USD,Hosted Zones (2)
+udacity-edeleon,US East (N. Virginia),alb-instances,Application Load Balancer,0,500.05,6000.6,USD,Number of Application Load Balancers (2)
+udacity-edeleon,US East (N. Virginia),public-subnets-nat-gw,Amazon Virtual Private Cloud (VPC),0,68.4,820.8,USD,Number of NAT Gateways (2)
+udacity-edeleon,US East (N. Virginia),rds-db-main-server,Amazon RDS for MySQL,0,2631.348,31576.18,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (50 GB), Provisioning IOPS (5000), Quantity (1), Instance type (db.r5.4xlarge), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+udacity-edeleon,US East (N. Virginia),rds-db-read-replica1-server,Amazon RDS for MySQL,0,2631.348,31576.18,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (50 GB), Provisioning IOPS (5000), Quantity (1), Instance type (db.r5.4xlarge), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+udacity-edeleon,US East (Ohio),rds-db-read-replica1-server,Amazon RDS for MySQL,0,1821.924,21863.09,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (50 GB), Provisioning IOPS (5000), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+udacity-edeleon,US East (Ohio),rds-db-main-server,Amazon RDS for MySQL,0,1821.924,21863.09,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (50 GB), Provisioning IOPS (5000), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+udacity-edeleon,US East (Ohio),public-subnets-nat-gw,Amazon Virtual Private Cloud (VPC),0,68.4,820.8,USD,Number of NAT Gateways (2)
+udacity-edeleon,US East (Ohio),alb-instances,Application Load Balancer,0,500.05,6000.6,USD,Number of Application Load Balancers (2)
+udacity-edeleon,US East (Ohio),dns-resolver,Amazon Route 53,0,13,156,USD,Hosted Zones (2)
+udacity-edeleon,US East (Ohio),cloudfront-s3,S3 Standard,0,249.61,2995.32,USD,S3 Standard storage (10 TB per month)
+udacity-edeleon,US East (Ohio),cloudfront-s3,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+udacity-edeleon,US East (Ohio),application-server,Amazon EC2,0,1092.24,13106.88,USD,"Operating system (Linux), Quantity (3), Pricing strategy (Convertible Reserved Instances 1 Year No Upfront), Storage amount (20 GB), Instance type (c5.4xlarge)"
+udacity-edeleon,US East (Ohio),web-server,Amazon EC2,0,1092.24,13106.88,USD,"Operating system (Linux), Quantity (3), Pricing strategy (Convertible Reserved Instances 1 Year No Upfront), Storage amount (20 GB), Instance type (c5.4xlarge)"
+,,,,,,,,
+Rationale:,,,,,,,,
+"In order to increase redundancy, I decided to add a third AZ and have a better load distribution between the resources. Additional to this, I decided to upgrade the RDS instances to a db.r5.4xlarge with SSD Provisioning IOPS (5000) for a better I/O performance With this I was happy, but I decided to go for a regional backup for disaster recovery, so resources were doubled on the bill with one adjustment, the sizes of the EC2 and RDS instances in the backup zone were reduced to c5.4xlarge and db.r5.2xlarge respectively, as they are not going to be operative, but selected them as convertible reserved instances, so in a case of DR we can promote the instances and if traffic is high have the capacity of scale",,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,

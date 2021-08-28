@@ -1,0 +1,16 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),web-server,Amazon EC2,0,1621.68,19460.16,USD,"Operating system (Linux), Quantity (2), Pricing strategy (Convertible Reserved Instances 1 Year No Upfront), Storage amount (20 GB), Instance type (c5.9xlarge)"
+My Estimate,US East (N. Virginia),application-server,Amazon EC2,0,1621.68,19460.16,USD,"Operating system (Linux), Quantity (2), Pricing strategy (Convertible Reserved Instances 1 Year No Upfront), Storage amount (20 GB), Instance type (c5.9xlarge)"
+My Estimate,US East (N. Virginia),cloudfront-s3,S3 Standard,0,249.61,2995.32,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),cloudfront-s3,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+My Estimate,US East (N. Virginia),dns-resolver,Amazon Route 53,0,13,156,USD,Hosted Zones (2)
+My Estimate,US East (N. Virginia),alb-instances,Application Load Balancer,0,500.05,6000.6,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),public-subnets-nat-gw,Amazon Virtual Private Cloud (VPC),0,68.4,820.8,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),rds-db-main-server,Amazon RDS for MySQL,0,816.324,9795.89,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+My Estimate,US East (N. Virginia),rds-db-read-replica1-server,Amazon RDS for MySQL,0,816.324,9795.89,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+,,,,,,,,
+Rationale:,,,,,,,,
+"First, In order to save costs I change the EC2 and RDS instances from a pay-as-you-go to a convertible reserved without upfront payment for 1 year scheme, with only this adjustment the cost was dropped from 9,425.66USD to 7,009.07USD, now with a shorter margin to adjust I analyzed that the EC2 instances were primarily for solving http request (web-server and app-server), so CPU and memory are important, and storage is meant only for OS and not transactional, so provisioned IOPS were not of impact, so I changed such storage for a general purpose SSD (gp2) and with this the cost was dropped to 5,707.07 USD",,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,

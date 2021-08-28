@@ -1,0 +1,15 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),web-server,Amazon EC2,0,2888.8,34665.60,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances), Storage amount (20 GB), Instance type (c5.9xlarge), Provisioning IOPS io1 (5000)"
+My Estimate,US East (N. Virginia),application-server,Amazon EC2,0,2888.8,34665.60,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances), Storage amount (20 GB), Instance type (c5.9xlarge), Provisioning IOPS io1 (5000)"
+My Estimate,US East (N. Virginia),cloudfront-s3,S3 Standard,0,249.61,2995.32,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),cloudfront-s3,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+My Estimate,US East (N. Virginia),dns-resolver,Amazon Route 53,0,13,156.00,USD,Hosted Zones (2)
+My Estimate,US East (N. Virginia),alb-instances,Application Load Balancer,0,500.05,6000.60,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),public-subnets-nat-gw,Amazon Virtual Private Cloud (VPC),0,68.4,820.80,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),rds-db-main-server,Amazon RDS for MySQL,0,1408.5,16902.00,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),rds-db-read-replica1-server,Amazon RDS for MySQL,0,1408.5,16902.00,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.r5.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
