@@ -4,7 +4,7 @@
 
 ## Project  Instructions
 
-### Exercise 1
+### Task 5
 
 1. Download the [starter code](https://github.com/udacity/cand-c2-project).
 2. In the main.tf file write the code to provision
