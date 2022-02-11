@@ -1,0 +1,2 @@
+With the budget doubling twice, the team can improve the redundancy by deploying the infrastructure in another region.
+We can use pilot light or warm stand-by, but given the budget the team can deploy multi-site active/active solution 

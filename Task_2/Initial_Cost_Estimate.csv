@@ -1,0 +1,18 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,482.6,5791.20,USD,"Operating system (Linux), Quantity (10), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (m4.large)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,1524.72,18296.64,USD,"Operating system (Linux), Quantity (6), Pricing strategy (On-Demand Instances), Storage amount (30 GB), Instance type (m5a.2xlarge)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,308.43,3701.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,147.83,1773.96,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (30 GB per hour), Average number of new TCP connections (20 per second)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,3944.24,47330.88,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (500 GB per month), Nodes (2), Instance Type (db.m6g.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,1489.5,17874.00,USD,"Basic Checks Within AWS (200), Number of Elastic Network Interfaces (10)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,19,228.00,USD,"Data transfer out to internet (200 GB per month), Number of requests (HTTPS) (2 million per month)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,DynamoDB on-demand capacity,0,181.25,2175.00,USD,"Table class (Standard), Average item size (all attributes) (20 KB), Data storage size (200 GB)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,106.9,1282.80,USD,"Number of Metrics (includes detailed and custom metrics) (20), Standard Logs: Data Ingested (200 GB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,4.6,55.20,USD,S3 Standard storage (200 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

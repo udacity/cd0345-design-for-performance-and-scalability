@@ -1,0 +1,2 @@
+I would reduce the RDS instance size as it is the main part of the cost. It's also worth considering moving some workflows to DynamoDB as it is cheaper.
+Another thing is to change some of the EC2 instances to reserved instead of on-demand. This should be done when the traffic is predictable.
