@@ -11,9 +11,13 @@ variable "zip_package" {
 }
 
 variable "handler" {
-  default = "lambda.handler"
+  default = "greet_lambda.lambda_handler"
 }
 
 variable "runtime" {
   default = "python3.6"
+}
+
+variable "function_name" {
+  default = "udacity_project_terraform"
 }
