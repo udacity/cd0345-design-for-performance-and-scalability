@@ -1,0 +1,5 @@
+region="us-east-1"
+lambda_function_name="greet_lambda"
+runtime="python3.7"
+output_archive_name="greet_lambda.zip"
+lambda_handler="greet_lambda.lambda_handler"
